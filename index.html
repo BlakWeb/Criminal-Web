@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Criminal Records and Information System</title>
+</head>
+
+<body>
+    <!--------------Navigation------------>
+    <nav>
+        <h2>Criminal Records and Information System</h2>
+        <h3>Welcome</h3>
+        <div class="nav-navigation">
+            <ul class="active">
+                <li><a href="#">Sign Out</a></i></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <h1 class="title">ADD CASE FILE</h1>
+    <nav>
+        <div class="navigation">
+            <ul class="active">
+                <hr>
+                <li><a href="#">Add File</a></li>
+                <hr>
+                <li><a href="#">Add Accused Info</a></li>
+                <hr>
+                <li><a href="#">View File</a></li>
+                <hr>
+                <li><a href="#">Search File</a></li>
+                <hr>
+
+            </ul>
+
+        </div>
+    </nav>
+    <img src="images\logo.jpg" alt="Nigeria police logo" class="left-image" width="100px">
+
+    <!----side- bar-->
+    <div class="side-navigation">
+        <ul class="left-bar">
+            <li><a href="#">DashBoard</a></li>
+            <li><a href="#">Add Records</a></li>
+            <li><a href="#">Open Case File</a></li>
+            <li><a href="#">Manage Account</a></li>
+        </ul>
+
+        <section class="form-section">
+            <form>
+                <div class="form-group">
+                    <label for="station">Station (Name of the police station):</label>
+                    <input type="text" id="station" name="station" required>
+                </div>
+                <div class="form-group">
+                    <label for="offence">Offence with the charge and:</label>
+                    <input type="text" id="offence" name="offence" required>
+                </div>
+                <div class="form-group">
+                    <label for="offence">station diary entry number:</label>
+                    <input type="text" id="offence" name="offence" required>
+                </div>
+                <div class="form-group">
+                    <label for="register">Charge Register Number:</label>
+                    <input type="text" id="register" name="register" required>
+                </div>
+                <div class="form-group">
+                    <label for="serial">Charge Sheet Serial Number:</label>
+                    <input type="text" id="serial" name="serial" required>
+                </div>
+                <div class="form-group">
+                    <label for="cid">Criminal Investigation Department (CID) Reference Number:</label>
+                    <input type="text" id="cid" name="cid" required>
+                </div>
+                <button type="submit">Next</button>
+            </form>
+        </section>
+
+    </div>
+
+
+
+
+    <!-------login form------>
+
+    <div class="login">
+        <div class="login-header">
+            <div class="logo"></div>
+            <img src="images\logo.jpg" alt="Nigeria police logo">
+        </div>
+        <h2>CRIMINAL RECORDS</h2>
+        <h4>AND INFORMATION MANAGEMANT SYSTEM</h4>
+    </div>
+
+    <form class="login-form">
+        <h1>Login Here</h1>
+        <label class="label">Police ID</label>
+
+        <label class="label">Password</label>  
+
+        <a class="btn" type="submit">Log In</a>
+    </form>  
+
+    </div>
+
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images\logo.jpg" alt="Nigeria Police Logo" class="md-image" width="100px">
+            </div>
+            <h1>Criminal Records and Information System</h1>
+        </header>
+
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Add Records</a></li>
+                <li><a href="#">Open Case File</a></li>
+                <li><a href="#">Manage Account</a></li>
+            </ul>
+        </nav>
+
+        <section class="main-content">
+            <h2>Add Criminal Record to Database</h2>
+            <form class="record-form">
+                <div class="form-row">
+                    <label>First Name:</label>
+                    <input type="text" placeholder="First Name">
+                    <label>Last Name:</label>
+                    <input type="text" placeholder="Last Name">
+                </div>
+
+                <div class="form-row">
+                    <label>Middle Name:</label>
+                    <input type="text" placeholder="Middle Name">
+                    <label>Gender:</label>
+                    <select>
+                        <option>Select Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label>Marital Status:</label>
+                    <select>
+                        <option>Select Marital Status</option>
+                        <option>Single</option>
+                        <option>Married</option>
+                    </select>
+                    <label>Nationality:</label>
+                    <select>
+                        <option>Select Nation</option>
+                        <option>Nigeria</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label>Country:</label>
+                    <input type="text" placeholder="Country">
+                    <label>State of Origin:</label>
+                    <select>
+                        <option>Abia</option>
+                        <option>Other States</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label>LGA:</label>
+                    <select>
+                        <option>Abia</option>
+                        <option>Other LGAs</option>
+                    </select>
+                    <label>Date of Birth:</label>
+                    <input type="date">
+                </div>
+
+                <div class="form-row">
+                    <label>Age:</label>
+                    <input type="number" placeholder="Age">
+                    <label>Place of Birth:</label>
+                    <input type="text" placeholder="Place of Birth">
+                </div>
+
+                <div class="form-row">
+                    <label>Height:</label>
+                    <input type="text" placeholder="Height">
+                    <label>Occupation:</label>
+                    <input type="text" placeholder="Occupation">
+                </div>
+
+                <div class="form-row">
+                    <label>Previous Name:</label>
+                    <input type="text" placeholder="Previous Name">
+                    <label>Home Address:</label>
+                    <input type="text" placeholder="Home Address">
+                </div>
+            </form>
+
+            <div class="actions">
+                <button>Add Records</button>
+                <button>View Records</button>
+            </div>
+        </section>
+
+
+        <footer>
+            <p>Copyright &copy;2020 Criminal Records and Information Project By Yusuf Abdulrazak</p>
+        </footer>
+
+</body>
+
+</html>
